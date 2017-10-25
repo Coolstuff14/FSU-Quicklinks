@@ -1,0 +1,56 @@
+/* Jacob Lee 2014 */
+body{
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #08694F 0%, #00573D 100%);
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #08694F 0%, #00573D 100%);
+/* Opera */ 
+background-image: -o-linear-gradient(top, #08694F 0%, #00573D 100%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #08694F), color-stop(1, #00573D));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #08694F 0%, #00573D 100%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #08694F 0%, #00573D 100%);
+}
+
+#main_links{
+width: 180px;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+#main_links h1{
+margin-top:20px;
+padding:0;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-size:12pt;
+text-align: center;
+color:#F2F2F2;
+}
+
+#main_links ul{
+padding-top:0;
+margin-top:0;
+padding-left:0;
+margin-left:3px;
+}
+
+#main_links li {
+padding: 3px; 
+margin: 0; 
+display: block;
+}
+
+#main_links ul a:link{color:#ffc62a; text-decoration:none; font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-size:16px;}
+#main_links ul a:visited {color:#ffc62a; text-decoration:none;} 
+#main_links ul a:hover {color:#ffc62a; text-decoration:none; font-weight:bold;} 
+#main_links ul a:active {color:#ffc62a; text-decoration:none;} 
+
+
+
+
+	
+
+
